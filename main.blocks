@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="Mgg[`IdEs2YVZa@z?[WE" x="643" y="-47"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id="zK?fXBh.TzU95)vIg(5g"><field name="LEDS">`
+        . . . . . 
+        . . # . # 
+        . . . # . 
+        . . # . # 
+        . . # # #
+        `</field></block></statement></block><block type="device_gesture_event" id="*/u3Q~FV!@]{NCDM#!Fi" x="476" y="-26"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="KmfunnQ%M-kE^3s_2Vr9"><field name="i">IconNames.Confused</field></block></statement></block><block type="pxt-on-start" id="LJ8z9ro3*M9zPv[)CK;B" x="0" y="0"><statement name="HANDLER"><block type="device_print_message" id="BCvi]i4l:(jq|MMo`gG("><value name="text"><shadow type="text" id="m)ovPQ@fBtQwxAf~q7{W"><field name="TEXT">PetHamster!!!</field></shadow></value><next><block type="device_print_message" id="o*,1Qv;~5a%K8D%!j^b$"><value name="text"><shadow type="text" id="~Q,GfLkR5@b`-`wM87pH"><field name="TEXT">Pin0=Reset</field></shadow></value><next><block type="device_show_leds" id="UbdFWsl.sOo3b^$/I}^K"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . . # . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="playMelody" id="RRbtYN?]v^!/sN8gm_uz"><value name="melody"><shadow type="melody_editor" id="e/`]zkq?;?oDC]bLj=B~"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="Vjjx3oru@Zp*xXp9?p6x"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">200</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="h7hHtyqSci*d@6OF!D_F" x="256" y="97"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="8_OX!:_rKe(NRp5fushe"><field name="i">IconNames.Silly</field></block></statement></block><block type="device_gesture_event" id="8Ai7D:+(1qWQ!_smD-e~" x="470" y="113"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="device_show_leds" id="`7oA~c]77)Xg;_GI)F81"><field name="LEDS">`
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id="Al0#xDxw)U]uI2LC3,Ga" x="184" y="232"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="basic_show_icon" id="uSopJYf2,i?c`_cg)t}4"><field name="i">IconNames.Ghost</field></block></statement></block><block type="device_gesture_event" id=")ZPefn/mk3[2Itud%v3N" x="643" y="260"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="jG:KG~gkF?8i{3C=J}P~"><field name="LEDS">`
+        . . . . . 
+        # . # . . 
+        . # . . . 
+        # . # . . 
+        # # # . .
+        `</field></block></statement></block><block type="device_button_event" id="T$r;Cy(*@Yrao+xrc;?r" x="162" y="423"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="F{j{|)4sfr{jZr|pPfO/"><field name="i">IconNames.Fabulous</field></block></statement></block><block type="device_gesture_event" id="WpSO53OYc6.p}8ZV2A#l" x="386" y="418"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="basic_show_icon" id="YR9$}3(%iRmW(s%S{9,)"><field name="i">IconNames.Surprised</field></block></statement></block></xml>
